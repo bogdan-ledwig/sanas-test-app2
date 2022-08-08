@@ -123,4 +123,7 @@
   <data name="IsNull" xml:space="preserve">
     <value>{0} is null.</value>
   </data>
+  <data name="SupervisorReceived" xml:space="preserve">
+    <value>Supervisor data received</value>
+  </data>
 </root>

@@ -123,6 +123,9 @@
   <data name="DispatcherUnhandledException" xml:space="preserve">
     <value>Dispatcher.UnhandledException</value>
   </data>
+  <data name="ExcepOccured" xml:space="preserve">
+    <value>An exception occur while getting supervisor data {0}</value>
+  </data>
   <data name="ExceptionOccurred" xml:space="preserve">
     <value>The following exception occurred:\n\n {0}</value>
   </data>

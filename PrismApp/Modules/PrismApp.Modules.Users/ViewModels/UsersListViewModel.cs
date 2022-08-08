@@ -82,11 +82,11 @@ public class UsersListViewModel : RegionViewModelBase
             var users =
                await _userService.GetUsers(_appConfiguration.ServiceUrl);
             Items.AddRange(FlatToHierarchy(users));
-            Logger.Information("Supervisor data received");
+            Logger.Information(Global.SupervisorReceived);
         }
         catch (Exception ex)
         {
-            Logger.Error($"An exception occur while getting supervisor data {ex}");
+            Logger.Error(string.Format (ExceptionRes.ExcepOccured, ex));
         }
     }
 }
