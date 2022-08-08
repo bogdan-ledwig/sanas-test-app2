@@ -1,4 +1,6 @@
-﻿namespace PrismApp.Modules.Users.Views;
+﻿using System.Collections.ObjectModel;
+
+namespace PrismApp.Modules.Users.Views;
 
 public partial class UsersList
 {
@@ -6,4 +8,5 @@ public partial class UsersList
     {
         InitializeComponent();
     }
+    
 }
