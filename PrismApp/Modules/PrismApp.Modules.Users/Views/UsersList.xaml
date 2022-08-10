@@ -11,13 +11,17 @@
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
 
-        <TextBlock Margin="5,5,5,0" Text="Users:" VerticalAlignment="Center" />
+        <TextBlock Margin="5" Text="Users:" VerticalAlignment="Bottom" />
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+            <Button Name="SearchButton" Margin="5" Content="Search" />
+            <TextBox Margin="5"  Text="" Width="230" />
+        </StackPanel>
 
         <TreeView Margin="5" Name="TreeView" Grid.Row="1" ItemsSource="{Binding Items}">
         </TreeView>
 
         <StackPanel Grid.Row="2" HorizontalAlignment="Right" Orientation="Horizontal">
-            <Button Margin="5" Width="70" Content="Load" />
+            <Button Name="LoadButton" Margin="5" Width="70" Content="Load" />
         </StackPanel>
     </Grid>
 </UserControl>    
